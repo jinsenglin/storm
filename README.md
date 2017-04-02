@@ -7,8 +7,8 @@ mvn clean install -DskipTests=true
 
 # MODIFY src/jvm/org/apache/storm/starter/ExclamationTopology.java IF NEED
 
-mvn package
-storm jar target/storm-starter-*.jar org.apache.storm.starter.ExclamationTopology
+mvn package -DskipTests=true
+storm jar target/storm-starter-1.1.0.jar org.apache.storm.starter.ExclamationTopology
 ```
 
 # REFERENCE
