@@ -9,6 +9,7 @@ cd storm/examples/storm-starter
 mvn clean install -DskipTests=true
 
 # MODIFY src/jvm/org/apache/storm/starter/ExclamationTopology.java IF NEED
+# e.g., change topology name from 'test' to 'orz'
 
 mvn package -DskipTests=true
 ../../../apache-storm-1.1.0/bin/storm jar target/storm-starter-1.1.0.jar org.apache.storm.starter.ExclamationTopology
